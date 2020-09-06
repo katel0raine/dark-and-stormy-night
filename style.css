@@ -53,7 +53,7 @@ main {
 }
 
 main::before {
-  background: url('https://cdnb.artstation.com/p/assets/images/images/007/636/805/large/krzysztof-piasek-63-dig.jpg?1507524777');
+  background: url('background-image.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
