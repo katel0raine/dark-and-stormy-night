@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('EBGaramond.ttf');
+}
+
+@font-face {
+  font-family: 'KaiserzeitGotisch';
+  src: url('KaiserzeitGotisch.ttf');
+}
+
+@media screen and (max-width: 699px) {
+  .quote {
+    max-width: 500px;
+    width: 50%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .quote-credit {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .quote {
+    max-width: 500px;
+    width: 600px;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .quote-credit {
+    font-size: 0.8rem;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+main::before {
+  background: url('https://cdnb.artstation.com/p/assets/images/images/007/636/805/large/krzysztof-piasek-63-dig.jpg?1507524777');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  filter: brightness(40%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.quote {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1.5rem;
+  color: white;
+  position: relative;
+  padding: 1.5rem;
+  text-align: justify;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  opacity: 80%;
+}
+
+p::first-letter {
+  float: left;
+  font-family: 'KaiserzeitGotisch', serif;
+  font-size: 5rem;
+}
+
+.quote-credit {
+  opacity: 40%;
+  padding-bottom: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.book-title {
+  font-style: italic;
+}
