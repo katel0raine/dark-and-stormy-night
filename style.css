@@ -46,6 +46,7 @@ body {
 main {
   align-items: center;
   display: flex;
+  font-family: 'EB Garamond', serif;
   height: 100vh;
   justify-content: center;
   position: relative;
@@ -76,7 +77,6 @@ main::before {
 }
 
 p {
-  font-family: 'EB Garamond', serif;
   opacity: 80%;
 }
 
