@@ -98,10 +98,10 @@ p::first-letter {
 }
 
 .art-credit a {
-  bottom: 5;
+  bottom: 0.4rem;
   color: white;
   font-size: 0.6rem;
-  left: 5;
+  left: 0.4rem;
   opacity: 30%;
   position: absolute;
   text-decoration: none;
